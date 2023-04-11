@@ -6,45 +6,59 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Jogos Luís</title>
         <link rel="stylesheet" href="estilo.css"/>
+        <style>
+            li.series{
+                color: rgb(91, 128, 58);
+            }
+            li.filmes{
+                color: rgb(98, 98, 212);
+            }
+            .jogo{
+                color: rgb(214, 66, 12);
+            }
+            p> .jogo{
+                border-bottom: dashed;
+            }
+        </style>
     </head>
     <body>
     <header>
         <h1> Jogos jogados </h1>
         <nav>
             <ul>
-                <li> <a href="index.html"> Home</a>
+                <li> <a href="index.html"> Home</a>.</li>
                 <li> <a href=" ">Listas</a>.</li> 
                 <li> <a href="teste.html">Outras</a>.</li>
             </ul>
         </nav>
     </header>
-    <p>Três últimos jogos que joguei:<p>
+    <p>Três últimos jogos que joguei:</p>
     
     <ol>
-
-        <li>Fifa</li>
-        <li>Horizon Forbiden West</li>
-        <li>The last of us</li>
-        </ol>
-
+        <li class=" jogo">Fifa</li>
+        <li class=" jogo">Horizon Forbiden West</li>
+        <li class=" jogo">The last of us</li>
+    </ol>
+    <p> E o <span class= "jogo"> Fifa </span> foi meu preferido.</p>
         <p>Filmes e séries que assisti: </p>
         
         <ul>
              <li>
                 <div>Filmes</div>
-            <ul style="color:blue">
-                <li>Pearl</li>
-                <li>Qual o seu número?</li>    
+            <ul>
+                <li class=" filmes">Pearl</li>
+                <li class=" filmes">Qual o seu número?</li>    
             </ul>
         </li>
         <li>
             <div>Séries</div>
-            <ul style="color:green">
-                <li>Cidade Invisível</li>
-                <li>How I Met Your Mother</li>
+            <ul>
+                <li class=" series">Cidade Invisível</li>
+                <li class=" series">How I Met Your Mother</li>
             </ul>
         </li>
     </ul>
+</body>
 <footer>
     &copy; 2023 - DCC121
 </footer>

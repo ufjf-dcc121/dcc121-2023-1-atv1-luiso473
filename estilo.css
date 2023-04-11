@@ -3,6 +3,9 @@ header, footer{
     color: white; 
     background-color: black;
 }
+main{
+    min-height: 264px;
+}
 header li{
 display: inline;
 border: solid 1px;
